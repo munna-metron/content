@@ -1659,6 +1659,41 @@
 	"edit": {
 		"sections": [
 			{
+				"description": "Provide these details inorder to run the 'Sentinel One - Remote Script Results' playbook",
+				"fields": [
+					{
+						"fieldId": "incident_sentineloneaccountid",
+						"isVisible": true
+					},
+					{
+						"fieldId": "incident_sentineloneagentid",
+						"isVisible": true
+					},
+					{
+						"fieldId": "incident_sentinelonersooutputdestination",
+						"isVisible": true
+					},
+					{
+						"fieldId": "incident_sentinelonersoscriptid",
+						"isVisible": true
+					},
+					{
+						"fieldId": "incident_sentinelonersotaskdescription",
+						"isVisible": true
+					},
+					{
+						"fieldId": "incident_sentinelonersooutputdirectory",
+						"isVisible": true
+					}
+				],
+				"isVisible": true,
+				"name": "Run Remote Script Playbook Input Arguments",
+				"query": null,
+				"queryType": "",
+				"readOnly": false,
+				"type": ""
+			},
+			{
 				"description": "",
 				"fields": [
 					{
